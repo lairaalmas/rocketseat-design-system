@@ -8,10 +8,11 @@ Tecnologias:
 
 - [Tailwind](https://tailwindcss.com/docs/installation)
 
-Instalações
+Setup
 
 - npm create vite@latest
   - npm i
   - npm run dev
 - npm install -D tailwindcss postcss autoprefixer
   - npx tailwindcss init -p
+  - (instalar extensões "tailwind" e "postcss" no vscode)
