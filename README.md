@@ -10,6 +10,10 @@ Tecnologias:
 
 -[Storybook](https://storybook.js.org/docs/react/get-started/install)
 
+-[clsx](https://www.npmjs.com/package/clsx)
+
+-[Radix](https://www.radix-ui.com/docs/primitives/utilities/slot)
+
 Setup
 
 - npm create vite@latest
@@ -20,3 +24,5 @@ Setup
   - (instalar extensões "tailwind" e "postcss" no vscode)
 - npx sb init --builder @storybook/builder-vite --use-npm
   - npm run storybook
+- npm install --save clsx
+- npm install @radix-ui/react-slot
