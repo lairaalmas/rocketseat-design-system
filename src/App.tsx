@@ -1,4 +1,4 @@
-import { Text } from "./components/text";
+import { Text } from "./components/Text";
 import "./styles/global.css";
 
 export function App() {

@@ -1,11 +1,11 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { Text, TextProps } from "./text";
+import { Text, TextProps } from "./Text";
 
 export default {
   title: "Components/Text",
   component: Text,
   args: {
-    children: "Hello world",
+    children: "Text component",
     size: "md",
   },
   argTypes: {
@@ -22,10 +22,13 @@ export const Default: StoryObj<TextProps> = {};
 export const CustomComponent: StoryObj<TextProps> = {
   args: {
     asChild: true,
-    children: <p>testando</p>,
+    children: <p>Text with p tag</p>,
   },
   argTypes: {
     children: {
+      table: { disable: true },
+    },
+    asChild: {
       table: { disable: true },
     },
   },
