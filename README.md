@@ -8,13 +8,13 @@ Tecnologias:
 
 - [Tailwind](https://tailwindcss.com/docs/installation)
 
--[Storybook](https://storybook.js.org/docs/react/get-started/install)
+- [Storybook](https://storybook.js.org/docs/react/get-started/install)
 
--[clsx](https://www.npmjs.com/package/clsx)
+- [clsx](https://www.npmjs.com/package/clsx)
 
--[Radix](https://www.radix-ui.com/docs/primitives/utilities/)
+- [Radix](https://www.radix-ui.com/docs/primitives/utilities/)
 
--[phosphor-react](https://www.npmjs.com/package/phosphor-react)
+- [phosphor-react](https://www.npmjs.com/package/phosphor-react)
 
 Setup
 
