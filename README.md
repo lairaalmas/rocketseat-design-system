@@ -12,7 +12,7 @@ Tecnologias:
 
 -[clsx](https://www.npmjs.com/package/clsx)
 
--[Radix](https://www.radix-ui.com/docs/primitives/utilities/slot)
+-[Radix](https://www.radix-ui.com/docs/primitives/utilities/)
 
 -[phosphor-react](https://www.npmjs.com/package/phosphor-react)
 
@@ -28,4 +28,5 @@ Setup
   - npm run storybook
 - npm install --save clsx
 - npm install @radix-ui/react-slot
+  -npm install @radix-ui/react-checkbox
 - npm i phosphor-react
