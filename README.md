@@ -1,4 +1,4 @@
-# Ingite Lab Design System
+# Ignite Lab Design System
 
 ## Projeto desenvolvido durante o curso da Rocketseat de Criação de Design System
 
