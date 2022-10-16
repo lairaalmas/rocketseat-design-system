@@ -14,6 +14,8 @@ Tecnologias:
 
 -[Radix](https://www.radix-ui.com/docs/primitives/utilities/slot)
 
+-[phosphor-react](https://www.npmjs.com/package/phosphor-react)
+
 Setup
 
 - npm create vite@latest
@@ -26,3 +28,4 @@ Setup
   - npm run storybook
 - npm install --save clsx
 - npm install @radix-ui/react-slot
+- npm i phosphor-react

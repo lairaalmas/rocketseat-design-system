@@ -1,35 +1,21 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { Text, TextProps } from "./Text";
+import { TextInput, TextInputRootProps } from "./Text";
+import { Envelope } from "phosphor-react";
 
 export default {
-  title: "Components/Text",
-  component: Text,
+  title: "Components/TextInput",
+  component: TextInput.Root,
   args: {
-    children: "Text component",
-    size: "md",
+    children: [
+      <TextInput.Icon>
+        <Envelope />
+      </TextInput.Icon>,
+      <TextInput.Input placeholder="Digite seu email" />,
+    ],
   },
   argTypes: {
-    size: {
-      options: ["sm", "md", "lg"],
-      control: {
-        type: "inline-radio",
-      },
-    },
+    children: { table: { disable: true } },
   },
-} as Meta<TextProps>;
+} as Meta<TextInputRootProps>;
 
-export const Default: StoryObj<TextProps> = {};
-export const CustomComponent: StoryObj<TextProps> = {
-  args: {
-    asChild: true,
-    children: <p>Text with p tag</p>,
-  },
-  argTypes: {
-    children: {
-      table: { disable: true },
-    },
-    asChild: {
-      table: { disable: true },
-    },
-  },
-};
+export const Default: StoryObj<TextInputRootProps> = {};
