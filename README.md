@@ -29,4 +29,4 @@
   - npm install @radix-ui/react-checkbox
 - npm i phosphor-react
 - npm i @storybook/storybook-deployer --save-dev
-  - npm run deploy storybook
+  - npm run deploy-storybook
