@@ -1,4 +1,3 @@
-// componente criado a partir do svg transformado em https://transform.tools/
 import { SVGAttributes } from "react";
 
 interface LogoProps extends SVGAttributes<HTMLOrSVGElement> {}

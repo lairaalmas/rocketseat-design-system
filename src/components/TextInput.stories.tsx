@@ -6,22 +6,22 @@ export default {
   title: "Components/TextInput",
   component: TextInput.Root,
   args: {
-    children: [
-      <TextInput.Icon>
-        <Envelope />
-      </TextInput.Icon>,
-      <TextInput.Input placeholder="Digite seu email" type="email" />,
-    ],
+    children: [<TextInput.Input placeholder="Digite seu email" type="email" />],
   },
   argTypes: {
     children: { table: { disable: true } },
   },
 } as Meta<TextInputRootProps>;
 
-export const WithIcon: StoryObj<TextInputRootProps> = {};
+export const Default: StoryObj<TextInputRootProps> = {};
 
-export const WithoutIcon: StoryObj<TextInputRootProps> = {
+export const WithIcon: StoryObj<TextInputRootProps> = {
   args: {
-    children: [<TextInput.Input placeholder="Digite seu nome" type="name" />],
+    children: [
+      <TextInput.Icon>
+        <Envelope />
+      </TextInput.Icon>,
+      <TextInput.Input placeholder="Digite seu nome" type="name" />,
+    ],
   },
 };

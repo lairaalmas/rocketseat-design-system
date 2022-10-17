@@ -14,6 +14,9 @@
 - [Storybook Deployer](https://www.npmjs.com/package/@storybook/storybook-deployer?activeTab=readme)
 - [Storybook a11y](https://www.google.com/search?channel=fs&client=ubuntu&q=storybook+addon+a11y)
 
+- Outros:
+  - Site [transform.tools](https://transform.tools/) - converte svg em componente
+
 ### Instalaç
 
 - npm create vite@latest
