@@ -17,7 +17,7 @@
 - Outros:
   - Site [transform tools](https://transform.tools/) - converte svg em componente
 
-### Instalaç
+### Instalação:
 
 - npm create vite@latest
 
@@ -48,14 +48,8 @@
 
 - npm i @storybook/addon-a11y
 
+---
+
 P.s.:
-O build não ta funcionando direito.
-Não ta criando a branch gh-pages.
-Foi possivel criar a branch rodando direto pelo terminal usando:
 
-- npm run build-storybook
-- npm run deploy-storybook
-
-E associa-la ao github pages do repositorio atual em settings/pages para acessar o storybook pelo [github pages](https://lairaalmas.github.io/Ignite-lab-design-system/)
-
-Mas o build nao ta gerando o storybook corretamente.
+O build não tava funcionando direito (não tava criando a branch gh-pages). Mas foi possivel criar a branch rodando direto pelo terminal usando "npm run build-storybook" e "npm run deploy-storybook" e associar a branch ao github pages do repositorio atual em settings/pages para acessar o storybook pelo [github pages](https://lairaalmas.github.io/ignite-lab-design-system/). Mesmo assim por um tempo não funcionou. Agora funciona. Só deus sabe o pq. 🥲
