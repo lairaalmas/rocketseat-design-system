@@ -13,6 +13,7 @@
 - [Phosphor-react](https://www.npmjs.com/package/phosphor-react)
 - [Storybook Deployer](https://www.npmjs.com/package/@storybook/storybook-deployer?activeTab=readme)
 - [Storybook a11y](https://www.google.com/search?channel=fs&client=ubuntu&q=storybook+addon+a11y)
+- [Storybook interactions](https://storybook.js.org/docs/react/essentials/interactions)
 
 - Outros:
   - Site [transform tools](https://transform.tools/) - converte svg em componente
@@ -47,6 +48,8 @@
   - npm run deploy-storybook
 
 - npm i @storybook/addon-a11y
+
+- npm i @storybook/testing-library @storybook/jest @storybook/addon-interactions @storybook/test-runner -D
 
 P.s.:
 O build não ta funcionando direito.
