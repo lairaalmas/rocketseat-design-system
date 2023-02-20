@@ -1,10 +1,11 @@
 # Ignite Lab Design System
 
-## Projeto desenvolvido durante o curso da Rocketseat de Criação de Design System
+Projeto desenvolvido durante o curso da Rocketseat de Criação de Design System
 
-### Tecnologias:
+## Tecnologias:
 
 - React
+- Typescript
 - [Vite](https://vitejs.dev/guide/)
 - [Tailwindcss](https://tailwindcss.com/docs/installation)
 - [Storybook](https://storybook.js.org/docs/react/get-started/install)
@@ -18,41 +19,60 @@
 - Outros:
   - Site [transform tools](https://transform.tools/) - converte svg em componente
 
-### Instalação:
+## Instalação:
 
-- npm create vite@latest
+### Vite
 
-  - npm i
-  - npm run dev
+- `npm create vite@latest`
 
-- npm install -D tailwindcss postcss autoprefixer
+  - `npm i`
 
-  - npx tailwindcss init -p
+  - `npm run dev`
+
+### Tailwind
+
+- `npm install -D tailwindcss postcss autoprefixer`
+
+  - `npx tailwindcss init -p`
+
   - (instalar extensões "tailwind" e "postcss" no vscode)
 
-- npx sb init --builder @storybook/builder-vite --use-npm
+### Storybook
 
-  - npm run storybook
-  - npm run build-storybook
+- `npx sb init --builder @storybook/builder-vite --use-npm`
 
-- npm install --save clsx
+  - `npm run storybook`
 
-- npm install @radix-ui/react-slot
+  - `npm run build-storybook`
 
-  - npm install @radix-ui/react-checkbox
+### Clsx
 
-- npm i phosphor-react
+- `npm install --save clsx`
 
-- npm i @storybook/storybook-deployer --save-dev
+### Radix
 
-  - npm run deploy-storybook
+- `npm install @radix-ui/react-slot`
 
-- npm i @storybook/addon-a11y
+  - `npm install @radix-ui/react-checkbox`
 
-- npm i @storybook/testing-library @storybook/jest @storybook/addon-interactions @storybook/test-runner -D
+### Phosphor
 
----
+- `npm i phosphor-react`
 
-P.s.:
+### Storybook auxiliares:
 
-O build não tava funcionando direito (não tava criando a branch gh-pages). Mas foi possivel criar a branch rodando direto pelo terminal usando "npm run build-storybook" e "npm run deploy-storybook" e associar a branch ao github pages do repositorio atual em settings/pages para acessar o storybook pelo [github pages](https://lairaalmas.github.io/ignite-lab-design-system/). Mesmo assim por um tempo não funcionou. Agora funciona. Só deus sabe o pq. 🥲
+- Deployer
+
+  - `npm i @storybook/storybook-deployer --save-dev`
+
+    - `npm run deploy-storybook`
+
+- A11y
+
+  - `npm i @storybook/addon-a11y`
+
+- Test
+
+  - `npm i @storybook/testing-library @storybook/jest @storybook/addon-interactions @storybook/test-runner -D`
+
+**P.s.:** o build não tava funcionando direito (não tava criando a branch gh-pages). Mas foi possivel criar a branch rodando direto pelo terminal usando "npm run build-storybook" e "npm run deploy-storybook" e associar a branch ao github pages do repositorio atual em settings/pages para acessar o storybook pelo [github pages](https://lairaalmas.github.io/ignite-lab-design-system/). Mesmo assim por um tempo não funcionou. 🥲
